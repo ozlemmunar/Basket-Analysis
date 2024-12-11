@@ -1,0 +1,314 @@
+,antecedents,consequents,antecedent support,consequent support,support,confidence,lift
+0,Milk,Bagel,50%,43%,23%,45%,1.1
+1,Bagel,Milk,43%,50%,23%,53%,1.1
+2,Milk,Cheese,50%,50%,30%,61%,1.2
+3,Cheese,Milk,50%,50%,30%,61%,1.2
+4,Milk,Pencil,50%,36%,17%,34%,0.9
+5,Pencil,Milk,36%,50%,17%,47%,0.9
+6,Milk,Wine,50%,44%,22%,44%,1
+7,Wine,Milk,44%,50%,22%,50%,1
+8,Milk,Diaper,50%,41%,16%,31%,0.8
+9,Diaper,Milk,41%,50%,16%,38%,0.8
+10,Milk,Bread,50%,50%,28%,56%,1.1
+11,Bread,Milk,50%,50%,28%,55%,1.1
+12,Milk,Meat,50%,48%,24%,49%,1
+13,Meat,Milk,48%,50%,24%,51%,1
+14,Milk,Eggs,50%,44%,24%,49%,1.1
+15,Eggs,Milk,44%,50%,24%,56%,1.1
+16,Cheese,Bagel,50%,43%,19%,39%,0.9
+17,Bagel,Cheese,43%,50%,19%,46%,0.9
+18,Pencil,Bagel,36%,43%,16%,44%,1
+19,Bagel,Pencil,43%,36%,16%,37%,1
+20,Bagel,Wine,43%,44%,17%,40%,0.9
+21,Wine,Bagel,44%,43%,17%,39%,0.9
+22,Diaper,Bagel,41%,43%,18%,45%,1.1
+23,Bagel,Diaper,43%,41%,18%,43%,1.1
+24,Bread,Bagel,50%,43%,28%,55%,1.3
+25,Bagel,Bread,43%,50%,28%,66%,1.3
+26,Meat,Bagel,48%,43%,19%,40%,0.9
+27,Bagel,Meat,43%,48%,19%,45%,0.9
+28,Bagel,Eggs,43%,44%,15%,36%,0.8
+29,Eggs,Bagel,44%,43%,15%,35%,0.8
+30,Cheese,Pencil,50%,36%,20%,40%,1.1
+31,Pencil,Cheese,36%,50%,20%,55%,1.1
+32,Cheese,Wine,50%,44%,27%,54%,1.2
+33,Wine,Cheese,44%,50%,27%,62%,1.2
+34,Diaper,Cheese,41%,50%,20%,49%,1
+35,Cheese,Diaper,50%,41%,20%,40%,1
+36,Cheese,Bread,50%,50%,24%,47%,0.9
+37,Bread,Cheese,50%,50%,24%,47%,0.9
+38,Cheese,Meat,50%,48%,32%,65%,1.4
+39,Meat,Cheese,48%,50%,32%,68%,1.4
+40,Cheese,Eggs,50%,44%,30%,59%,1.4
+41,Eggs,Cheese,44%,50%,30%,68%,1.4
+42,Pencil,Wine,36%,44%,20%,55%,1.3
+43,Wine,Pencil,44%,36%,20%,46%,1.3
+44,Diaper,Pencil,41%,36%,17%,42%,1.2
+45,Pencil,Diaper,36%,41%,17%,47%,1.2
+46,Bread,Pencil,50%,36%,20%,40%,1.1
+47,Pencil,Bread,36%,50%,20%,55%,1.1
+48,Pencil,Meat,36%,48%,18%,49%,1
+49,Meat,Pencil,48%,36%,18%,37%,1
+50,Pencil,Eggs,36%,44%,17%,46%,1
+51,Eggs,Pencil,44%,36%,17%,38%,1
+52,Diaper,Wine,41%,44%,23%,58%,1.3
+53,Wine,Diaper,44%,41%,23%,54%,1.3
+54,Bread,Wine,50%,44%,24%,48%,1.1
+55,Wine,Bread,44%,50%,24%,56%,1.1
+56,Meat,Wine,48%,44%,25%,53%,1.2
+57,Wine,Meat,44%,48%,25%,57%,1.2
+58,Eggs,Wine,44%,44%,24%,55%,1.3
+59,Wine,Eggs,44%,44%,24%,55%,1.3
+60,Diaper,Bread,41%,50%,23%,57%,1.1
+61,Bread,Diaper,50%,41%,23%,46%,1.1
+62,Diaper,Meat,41%,48%,19%,48%,1
+63,Meat,Diaper,48%,41%,19%,41%,1
+64,Diaper,Eggs,41%,44%,16%,40%,0.9
+65,Eggs,Diaper,44%,41%,16%,37%,0.9
+66,Bread,Meat,50%,48%,21%,41%,0.9
+67,Meat,Bread,48%,50%,21%,43%,0.9
+68,Bread,Eggs,50%,44%,19%,37%,0.8
+69,Eggs,Bread,44%,50%,19%,43%,0.8
+70,Meat,Eggs,48%,44%,27%,56%,1.3
+71,Eggs,Meat,44%,48%,27%,61%,1.3
+72,"Milk, Bread",Bagel,28%,43%,17%,61%,1.4
+73,"Milk, Bagel",Bread,23%,50%,17%,76%,1.5
+74,"Bread, Bagel",Milk,28%,50%,17%,61%,1.2
+75,Milk,"Bread, Bagel",50%,28%,17%,34%,1.2
+76,Bread,"Milk, Bagel",50%,23%,17%,34%,1.5
+77,Bagel,"Milk, Bread",43%,28%,17%,40%,1.4
+78,"Milk, Cheese",Pencil,30%,36%,10%,33%,0.9
+79,"Milk, Pencil",Cheese,17%,50%,10%,59%,1.2
+80,"Cheese, Pencil",Milk,20%,50%,10%,51%,1
+81,"Milk, Cheese",Wine,30%,44%,16%,53%,1.2
+82,"Milk, Wine",Cheese,22%,50%,16%,74%,1.5
+83,"Cheese, Wine",Milk,27%,50%,16%,60%,1.2
+84,Milk,"Cheese, Wine",50%,27%,16%,32%,1.2
+85,Cheese,"Milk, Wine",50%,22%,16%,32%,1.5
+86,Wine,"Milk, Cheese",44%,30%,16%,37%,1.2
+87,"Milk, Cheese",Bread,30%,50%,13%,43%,0.8
+88,"Milk, Bread",Cheese,28%,50%,13%,47%,0.9
+89,"Cheese, Bread",Milk,24%,50%,13%,55%,1.1
+90,"Milk, Cheese",Meat,30%,48%,20%,67%,1.4
+91,"Milk, Meat",Cheese,24%,50%,20%,83%,1.7
+92,"Cheese, Meat",Milk,32%,50%,20%,63%,1.3
+93,Milk,"Cheese, Meat",50%,32%,20%,41%,1.3
+94,Cheese,"Milk, Meat",50%,24%,20%,41%,1.7
+95,Meat,"Milk, Cheese",48%,30%,20%,43%,1.4
+96,"Milk, Cheese",Eggs,30%,44%,20%,65%,1.5
+97,"Milk, Eggs",Cheese,24%,50%,20%,81%,1.6
+98,"Cheese, Eggs",Milk,30%,50%,20%,66%,1.3
+99,Milk,"Cheese, Eggs",50%,30%,20%,39%,1.3
+100,Cheese,"Milk, Eggs",50%,24%,20%,39%,1.6
+101,Eggs,"Milk, Cheese",44%,30%,20%,45%,1.5
+102,"Milk, Bread",Pencil,28%,36%,11%,39%,1.1
+103,"Milk, Pencil",Bread,17%,50%,11%,63%,1.2
+104,"Bread, Pencil",Milk,20%,50%,11%,54%,1.1
+105,"Milk, Bread",Wine,28%,44%,13%,47%,1.1
+106,"Milk, Wine",Bread,22%,50%,13%,59%,1.2
+107,"Bread, Wine",Milk,24%,50%,13%,53%,1.1
+108,"Milk, Meat",Wine,24%,44%,13%,52%,1.2
+109,"Milk, Wine",Meat,22%,48%,13%,58%,1.2
+110,"Meat, Wine",Milk,25%,50%,13%,51%,1
+111,"Milk, Eggs",Wine,24%,44%,14%,56%,1.3
+112,"Milk, Wine",Eggs,22%,44%,14%,62%,1.4
+113,"Eggs, Wine",Milk,24%,50%,14%,57%,1.1
+114,Eggs,"Milk, Wine",44%,22%,14%,31%,1.4
+115,Wine,"Milk, Eggs",44%,24%,14%,31%,1.3
+116,"Milk, Diaper",Bread,16%,50%,11%,73%,1.5
+117,"Milk, Bread",Diaper,28%,41%,11%,41%,1
+118,"Diaper, Bread",Milk,23%,50%,11%,49%,1
+119,"Milk, Bread",Meat,28%,48%,10%,38%,0.8
+120,"Milk, Meat",Bread,24%,50%,10%,43%,0.8
+121,"Bread, Meat",Milk,21%,50%,10%,51%,1
+122,"Milk, Bread",Eggs,28%,44%,10%,38%,0.9
+123,"Milk, Eggs",Bread,24%,50%,10%,43%,0.8
+124,"Bread, Eggs",Milk,19%,50%,10%,56%,1.1
+125,"Milk, Meat",Eggs,24%,44%,18%,73%,1.7
+126,"Milk, Eggs",Meat,24%,48%,18%,73%,1.5
+127,"Meat, Eggs",Milk,27%,50%,18%,67%,1.3
+128,Milk,"Meat, Eggs",50%,27%,18%,35%,1.3
+129,Meat,"Milk, Eggs",48%,24%,18%,37%,1.5
+130,Eggs,"Milk, Meat",44%,24%,18%,41%,1.7
+131,"Cheese, Bagel",Wine,19%,44%,11%,56%,1.3
+132,"Cheese, Wine",Bagel,27%,43%,11%,40%,0.9
+133,"Bagel, Wine",Cheese,17%,50%,11%,63%,1.3
+134,"Cheese, Diaper",Bagel,20%,43%,11%,54%,1.3
+135,"Diaper, Bagel",Cheese,18%,50%,11%,59%,1.2
+136,"Cheese, Bagel",Diaper,19%,41%,11%,56%,1.4
+137,"Cheese, Bread",Bagel,24%,43%,10%,44%,1
+138,"Cheese, Bagel",Bread,19%,50%,10%,54%,1.1
+139,"Bread, Bagel",Cheese,28%,50%,10%,38%,0.7
+140,"Cheese, Meat",Bagel,32%,43%,12%,37%,0.9
+141,"Bagel, Meat",Cheese,19%,50%,12%,63%,1.3
+142,"Cheese, Bagel",Meat,19%,48%,12%,62%,1.3
+143,"Diaper, Bagel",Wine,18%,44%,10%,55%,1.3
+144,"Diaper, Wine",Bagel,23%,43%,10%,43%,1
+145,"Bagel, Wine",Diaper,17%,41%,10%,59%,1.5
+146,"Bread, Bagel",Wine,28%,44%,10%,36%,0.8
+147,"Bread, Wine",Bagel,24%,43%,10%,42%,1
+148,"Bagel, Wine",Bread,17%,50%,10%,59%,1.2
+149,"Bagel, Meat",Wine,19%,44%,10%,55%,1.3
+150,"Meat, Wine",Bagel,25%,43%,10%,42%,1
+151,"Bagel, Wine",Meat,17%,48%,10%,61%,1.3
+152,"Diaper, Bread",Bagel,23%,43%,12%,52%,1.2
+153,"Diaper, Bagel",Bread,18%,50%,12%,66%,1.3
+154,"Bread, Bagel",Diaper,28%,41%,12%,43%,1.1
+155,"Diaper, Meat",Bagel,19%,43%,10%,54%,1.3
+156,"Bagel, Meat",Diaper,19%,41%,10%,55%,1.4
+157,"Diaper, Bagel",Meat,18%,48%,10%,57%,1.2
+158,"Bread, Meat",Bagel,21%,43%,11%,55%,1.3
+159,"Bagel, Meat",Bread,19%,50%,11%,60%,1.2
+160,"Bread, Bagel",Meat,28%,48%,11%,41%,0.9
+161,"Cheese, Pencil",Wine,20%,44%,13%,63%,1.4
+162,"Cheese, Wine",Pencil,27%,36%,13%,47%,1.3
+163,"Pencil, Wine",Cheese,20%,50%,13%,63%,1.3
+164,Pencil,"Cheese, Wine",36%,27%,13%,35%,1.3
+165,"Cheese, Bread",Pencil,24%,36%,12%,52%,1.4
+166,"Cheese, Pencil",Bread,20%,50%,12%,62%,1.2
+167,"Bread, Pencil",Cheese,20%,50%,12%,62%,1.2
+168,Pencil,"Cheese, Bread",36%,24%,12%,34%,1.4
+169,"Cheese, Pencil",Meat,20%,48%,10%,52%,1.1
+170,"Cheese, Meat",Pencil,32%,36%,10%,32%,0.9
+171,"Pencil, Meat",Cheese,18%,50%,10%,59%,1.2
+172,"Cheese, Pencil",Eggs,20%,44%,11%,54%,1.2
+173,"Cheese, Eggs",Pencil,30%,36%,11%,36%,1
+174,"Pencil, Eggs",Cheese,17%,50%,11%,65%,1.3
+175,"Cheese, Diaper",Wine,20%,44%,14%,68%,1.6
+176,"Diaper, Wine",Cheese,23%,50%,14%,58%,1.2
+177,"Cheese, Wine",Diaper,27%,41%,14%,51%,1.2
+178,Diaper,"Cheese, Wine",41%,27%,14%,34%,1.2
+179,Wine,"Cheese, Diaper",44%,20%,14%,31%,1.6
+180,"Cheese, Bread",Wine,24%,44%,14%,60%,1.4
+181,"Cheese, Wine",Bread,27%,50%,14%,53%,1
+182,"Bread, Wine",Cheese,24%,50%,14%,58%,1.2
+183,Wine,"Cheese, Bread",44%,24%,14%,33%,1.4
+184,"Cheese, Meat",Wine,32%,44%,17%,52%,1.2
+185,"Cheese, Wine",Meat,27%,48%,17%,62%,1.3
+186,"Meat, Wine",Cheese,25%,50%,17%,67%,1.3
+187,Cheese,"Meat, Wine",50%,25%,17%,34%,1.3
+188,Meat,"Cheese, Wine",48%,27%,17%,35%,1.3
+189,Wine,"Cheese, Meat",44%,32%,17%,38%,1.2
+190,"Cheese, Eggs",Wine,30%,44%,17%,55%,1.3
+191,"Cheese, Wine",Eggs,27%,44%,17%,61%,1.4
+192,"Eggs, Wine",Cheese,24%,50%,17%,68%,1.4
+193,Cheese,"Eggs, Wine",50%,24%,17%,33%,1.4
+194,Eggs,"Cheese, Wine",44%,27%,17%,38%,1.4
+195,Wine,"Cheese, Eggs",44%,30%,17%,38%,1.3
+196,"Cheese, Diaper",Bread,20%,50%,14%,68%,1.4
+197,"Diaper, Bread",Cheese,23%,50%,14%,59%,1.2
+198,"Cheese, Bread",Diaper,24%,41%,14%,57%,1.4
+199,Diaper,"Cheese, Bread",41%,24%,14%,34%,1.4
+200,"Cheese, Diaper",Meat,20%,48%,11%,57%,1.2
+201,"Diaper, Meat",Cheese,19%,50%,11%,59%,1.2
+202,"Cheese, Meat",Diaper,32%,41%,11%,35%,0.9
+203,"Cheese, Diaper",Eggs,20%,44%,10%,51%,1.2
+204,"Diaper, Eggs",Cheese,16%,50%,10%,63%,1.3
+205,"Cheese, Eggs",Diaper,30%,41%,10%,34%,0.8
+206,"Cheese, Bread",Meat,24%,48%,14%,60%,1.3
+207,"Cheese, Meat",Bread,32%,50%,14%,44%,0.9
+208,"Bread, Meat",Cheese,21%,50%,14%,69%,1.4
+209,Meat,"Cheese, Bread",48%,24%,14%,30%,1.3
+210,"Cheese, Bread",Eggs,24%,44%,12%,49%,1.1
+211,"Cheese, Eggs",Bread,30%,50%,12%,39%,0.8
+212,"Bread, Eggs",Cheese,19%,50%,12%,63%,1.3
+213,"Cheese, Meat",Eggs,32%,44%,22%,67%,1.5
+214,"Cheese, Eggs",Meat,30%,48%,22%,72%,1.5
+215,"Meat, Eggs",Cheese,27%,50%,22%,81%,1.6
+216,Cheese,"Meat, Eggs",50%,27%,22%,43%,1.6
+217,Meat,"Cheese, Eggs",48%,30%,22%,45%,1.5
+218,Eggs,"Cheese, Meat",44%,32%,22%,49%,1.5
+219,"Diaper, Pencil",Wine,17%,44%,11%,63%,1.4
+220,"Diaper, Wine",Pencil,23%,36%,11%,46%,1.3
+221,"Pencil, Wine",Diaper,20%,41%,11%,54%,1.3
+222,"Bread, Pencil",Wine,20%,44%,11%,57%,1.3
+223,"Bread, Wine",Pencil,24%,36%,11%,47%,1.3
+224,"Pencil, Wine",Bread,20%,50%,11%,57%,1.1
+225,Pencil,"Bread, Wine",36%,24%,11%,32%,1.3
+226,"Pencil, Meat",Wine,18%,44%,11%,64%,1.5
+227,"Pencil, Wine",Meat,20%,48%,11%,57%,1.2
+228,"Meat, Wine",Pencil,25%,36%,11%,46%,1.3
+229,Pencil,"Meat, Wine",36%,25%,11%,32%,1.3
+230,"Pencil, Eggs",Wine,17%,44%,12%,73%,1.7
+231,"Pencil, Wine",Eggs,20%,44%,12%,60%,1.4
+232,"Eggs, Wine",Pencil,24%,36%,12%,50%,1.4
+233,Pencil,"Eggs, Wine",36%,24%,12%,33%,1.4
+234,"Diaper, Bread",Pencil,23%,36%,10%,45%,1.2
+235,"Diaper, Pencil",Bread,17%,50%,10%,61%,1.2
+236,"Bread, Pencil",Diaper,20%,41%,10%,52%,1.3
+237,"Bread, Pencil",Meat,20%,48%,11%,56%,1.2
+238,"Bread, Meat",Pencil,21%,36%,11%,54%,1.5
+239,"Pencil, Meat",Bread,18%,50%,11%,62%,1.2
+240,Pencil,"Bread, Meat",36%,21%,11%,31%,1.5
+241,"Diaper, Bread",Wine,23%,44%,15%,64%,1.5
+242,"Diaper, Wine",Bread,23%,50%,15%,64%,1.3
+243,"Bread, Wine",Diaper,24%,41%,15%,61%,1.5
+244,Diaper,"Bread, Wine",41%,24%,15%,37%,1.5
+245,Wine,"Diaper, Bread",44%,23%,15%,34%,1.5
+246,"Diaper, Meat",Wine,19%,44%,12%,64%,1.5
+247,"Diaper, Wine",Meat,23%,48%,12%,53%,1.1
+248,"Meat, Wine",Diaper,25%,41%,12%,49%,1.2
+249,Diaper,"Meat, Wine",41%,25%,12%,30%,1.2
+250,"Diaper, Eggs",Wine,16%,44%,11%,69%,1.6
+251,"Diaper, Wine",Eggs,23%,44%,11%,47%,1.1
+252,"Eggs, Wine",Diaper,24%,41%,11%,46%,1.1
+253,"Bread, Meat",Wine,21%,44%,13%,65%,1.5
+254,"Bread, Wine",Meat,24%,48%,13%,55%,1.1
+255,"Meat, Wine",Bread,25%,50%,13%,53%,1.1
+256,Wine,"Bread, Meat",44%,21%,13%,30%,1.5
+257,"Bread, Eggs",Wine,19%,44%,12%,64%,1.5
+258,"Bread, Wine",Eggs,24%,44%,12%,49%,1.1
+259,"Eggs, Wine",Bread,24%,50%,12%,50%,1
+260,"Meat, Eggs",Wine,27%,44%,15%,56%,1.3
+261,"Meat, Wine",Eggs,25%,44%,15%,59%,1.4
+262,"Eggs, Wine",Meat,24%,48%,15%,62%,1.3
+263,Meat,"Eggs, Wine",48%,24%,15%,31%,1.3
+264,Eggs,"Meat, Wine",44%,25%,15%,34%,1.4
+265,Wine,"Meat, Eggs",44%,27%,15%,34%,1.3
+266,"Diaper, Bread",Meat,23%,48%,12%,52%,1.1
+267,"Diaper, Meat",Bread,19%,50%,12%,62%,1.2
+268,"Bread, Meat",Diaper,21%,41%,12%,58%,1.4
+269,"Milk, Cheese, Meat",Wine,20%,44%,10%,50%,1.1
+270,"Milk, Cheese, Wine",Meat,16%,48%,10%,63%,1.3
+271,"Milk, Meat, Wine",Cheese,13%,50%,10%,80%,1.6
+272,"Cheese, Meat, Wine",Milk,17%,50%,10%,60%,1.2
+273,"Milk, Cheese","Meat, Wine",30%,25%,10%,33%,1.3
+274,"Milk, Meat","Cheese, Wine",24%,27%,10%,42%,1.5
+275,"Milk, Wine","Cheese, Meat",22%,32%,10%,46%,1.4
+276,"Cheese, Meat","Milk, Wine",32%,22%,10%,31%,1.4
+277,"Cheese, Wine","Milk, Meat",27%,24%,10%,38%,1.5
+278,"Meat, Wine","Milk, Cheese",25%,30%,10%,41%,1.3
+279,"Milk, Cheese, Eggs",Wine,20%,44%,10%,53%,1.2
+280,"Milk, Cheese, Wine",Eggs,16%,44%,10%,65%,1.5
+281,"Milk, Eggs, Wine",Cheese,14%,50%,10%,77%,1.5
+282,"Cheese, Eggs, Wine",Milk,17%,50%,10%,63%,1.3
+283,"Milk, Cheese","Eggs, Wine",30%,24%,10%,34%,1.4
+284,"Milk, Eggs","Cheese, Wine",24%,27%,10%,43%,1.6
+285,"Milk, Wine","Cheese, Eggs",22%,30%,10%,48%,1.6
+286,"Cheese, Eggs","Milk, Wine",30%,22%,10%,35%,1.6
+287,"Cheese, Wine","Milk, Eggs",27%,24%,10%,39%,1.6
+288,"Eggs, Wine","Milk, Cheese",24%,30%,10%,43%,1.4
+289,"Milk, Cheese, Meat",Eggs,20%,44%,15%,75%,1.7
+290,"Milk, Cheese, Eggs",Meat,20%,48%,15%,77%,1.6
+291,"Milk, Meat, Eggs",Cheese,18%,50%,15%,86%,1.7
+292,"Cheese, Meat, Eggs",Milk,22%,50%,15%,71%,1.4
+293,"Milk, Cheese","Meat, Eggs",30%,27%,15%,50%,1.9
+294,"Milk, Meat","Cheese, Eggs",24%,30%,15%,62%,2.1
+295,"Milk, Eggs","Cheese, Meat",24%,32%,15%,62%,1.9
+296,"Cheese, Meat","Milk, Eggs",32%,24%,15%,47%,1.9
+297,"Cheese, Eggs","Milk, Meat",30%,24%,15%,51%,2.1
+298,"Meat, Eggs","Milk, Cheese",27%,30%,15%,57%,1.9
+299,Milk,"Cheese, Meat, Eggs",50%,22%,15%,30%,1.4
+300,Cheese,"Milk, Meat, Eggs",50%,18%,15%,30%,1.7
+301,Meat,"Milk, Cheese, Eggs",48%,20%,15%,32%,1.6
+302,Eggs,"Milk, Cheese, Meat",44%,20%,15%,35%,1.7
+303,"Cheese, Meat, Eggs",Wine,22%,44%,11%,51%,1.2
+304,"Cheese, Meat, Wine",Eggs,17%,44%,11%,66%,1.5
+305,"Cheese, Eggs, Wine",Meat,17%,48%,11%,67%,1.4
+306,"Meat, Eggs, Wine",Cheese,15%,50%,11%,74%,1.5
+307,"Cheese, Meat","Eggs, Wine",32%,24%,11%,34%,1.4
+308,"Cheese, Eggs","Meat, Wine",30%,25%,11%,37%,1.5
+309,"Cheese, Wine","Meat, Eggs",27%,27%,11%,41%,1.5
+310,"Meat, Eggs","Cheese, Wine",27%,27%,11%,42%,1.5
+311,"Meat, Wine","Cheese, Eggs",25%,30%,11%,44%,1.5
+312,"Eggs, Wine","Cheese, Meat",24%,32%,11%,46%,1.4
